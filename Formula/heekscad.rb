@@ -6,7 +6,7 @@ class Heekscad < Formula
   sha256 ""
 
   depends_on "cmake" => :build
-  depends_on "homebrew/opencascade"
+  depends_on "opencascade"
   depends_on "elhernes/multiverse/libarea"
   depends_on "wxmac"
 
